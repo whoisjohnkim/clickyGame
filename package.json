@@ -2,7 +2,7 @@
   "name": "clicky_game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://whoisjohnkim.github.io/clickygame",
+  "homepage": "http://whoisjohnkim.github.io/clickyGame/",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
