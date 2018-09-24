@@ -1,4 +1,4 @@
-# clickyGame
+# League of Legends Clicky Game
 
 ## Technologies Used
 * React.js
