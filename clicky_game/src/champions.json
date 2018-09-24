@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Aatrox",
+        "image": "./images/Aatrox.png"
+    },
+    {
+        "id": 2,
+        "name": "Blitzcrank",
+        "image": "./images/Blitzcrank.png"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Mundo",
+        "image": "./images/DrMundo.png"
+    },
+    {
+        "id": 4,
+        "name": "Galio",
+        "image": "./images/Galio.png"
+    },
+    {
+        "id": 5,
+        "name": "Garen",
+        "image": "./images/Garen.png"
+    },
+    {
+        "id": 6,
+        "name": "Irelia",
+        "image": "./images/Irelia.png"
+    },
+    {
+        "id": 7,
+        "name": "Karma",
+        "image": "./images/Karma.png"
+    },
+    {
+        "id": 8,
+        "name": "Lee Sin",
+        "image": "./images/LeeSin.png"
+    },
+    {
+        "id": 9,
+        "name": "Lux",
+        "image": "./images/Lux.png"
+    },
+    {
+        "id": 10,
+        "name": "Morgana",
+        "image": "./images/Nunu.png"
+    },
+    {
+        "id": 11,
+        "name": "Rumble",
+        "image": "./images/Rumble.png"
+    },
+    {
+        "id": 12,
+        "name": "Taliyah",
+        "image": "./images/Taliyah.png"
+    }
+]

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Game from './components/Game'
+import Game from './components/Game/Game'
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
 
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
-            <h1 className="display-4">Clicky Game!</h1>
+            <h1 className="display-4">LoL Clicky Game!</h1>
             <p className="lead">Click on the Images below but be sure not to click on an image twice in a row!</p>
           </div>
         </div>
