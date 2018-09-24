@@ -13,7 +13,7 @@ class App extends Component {
 
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
-            <h1 className="display-4">LoL Clicky Game!</h1>
+            <h1 className="display-4">Leage of Legends Clicky Game!</h1>
             <p className="lead">Click on the Images below but be sure not to click on an image twice in a row!</p>
           </div>
         </div>

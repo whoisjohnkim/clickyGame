@@ -13,9 +13,29 @@ class Game extends Component {
             console.log("Oh no you already clicked this before!");
         }
         else {
-            this.setState({lastPick: id})
-            console.log("Your new id is: " + id);
+            this.setState({lastPick: id});
+            this.shuffle();
         }
+    }
+
+    shuffle = () => {
+        var array = this.state.order;
+        var currentIndex = array.length, temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        this.setState({order: array});
+        console.log("Shuffle Time!");
     }
 
     render() {
