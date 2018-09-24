@@ -6,16 +6,17 @@ import "./Game.css";
 class Game extends Component {
     state = {
         order: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-        lastPick: -1
+        lastPick: -1,
+        score: 0
     }
     randomizeImages = id => {
         if(id === this.state.lastPick){
-            console.log("Oh no you already clicked this before!");
+            this.setState({lastPick: id, score: 0, lastPick: -1});
         }
         else {
-            this.setState({lastPick: id});
-            this.shuffle();
+            this.setState({score: this.state.score + 1, lastPick: id});
         }
+        this.shuffle();
     }
 
     shuffle = () => {
@@ -41,6 +42,7 @@ class Game extends Component {
     render() {
       return (
         <div className="container">
+            <h3>User Score: {this.state.score}</h3>
             <div className="row">
             {
                 this.state.order.map((index) => (

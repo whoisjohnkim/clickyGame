@@ -7,10 +7,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-light bg-light">
-          <span className="navbar-brand mb-0 h1">Clicky Game</span>
-        </nav>
-
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <h1 className="display-4">Leage of Legends Clicky Game!</h1>
