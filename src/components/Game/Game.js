@@ -11,7 +11,7 @@ class Game extends Component {
     }
     randomizeImages = id => {
         if(id === this.state.lastPick){
-            this.setState({lastPick: id, score: 0, lastPick: -1});
+            this.setState({score: 0, lastPick: -1});
         }
         else {
             this.setState({score: this.state.score + 1, lastPick: id});
@@ -42,8 +42,8 @@ class Game extends Component {
     render() {
       return (
         <div className="container">
-            <h3>User Score: {this.state.score}</h3>
-            <div className="row">
+            <h2 className="score">User Score: {this.state.score}</h2>
+            <div className="row charDiv">
             {
                 this.state.order.map((index) => (
                     <div className="col-lg-3 col-sm-6">

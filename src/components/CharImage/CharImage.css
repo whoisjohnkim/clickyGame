@@ -1,4 +1,10 @@
 .charImage {
     width: 100%;
     margin-bottom: 20px;
+    background-color: black;
+}
+
+.card {
+    background: black;
+    opacity: 0.9;
 }
